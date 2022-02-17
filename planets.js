@@ -59,7 +59,7 @@ class Orbiter extends Sun {
 }
 
 function setup() {
-  createCanvas(1200, 800, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
   easycam = createEasyCam();
   //colorMode(HSB);
   smooth(8);
